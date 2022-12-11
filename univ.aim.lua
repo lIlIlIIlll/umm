@@ -1,3 +1,5 @@
+-- Made by Suave#1170
+
 -- instancing
 local drawing_new = Drawing.new
 local instance_new = Instance.new
@@ -122,7 +124,7 @@ local options = {
     -- aimbot settings
     aimbot = true,
     smoothness = 3,
-    fov = 200,
+    fov = 120,
     fov_increase_on_aim = 0, -- increases your fov by this value while the aimbot is active
     rage_mode = false, -- disregards fov, smoothness, odds and will lock onto people behind you
 
