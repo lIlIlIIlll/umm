@@ -34,7 +34,7 @@ local _aimsp_settings; _aimsp_settings = {
 
     -- aimbot settings
     use_aimbot = true,
-    use_wallcheck = true,
+    use_wallcheck = false,
     team_check = true,
     loop_all_humanoids = false, -- will allow aimbot to everything that has a humanoid, likely *VERY* laggy
     max_dist = 9e9, -- 9e9 = very big
@@ -55,8 +55,8 @@ local _aimsp_settings; _aimsp_settings = {
     use_esp = true,
     esp_toggle_key = Enum.KeyCode.O,
     rainbow_speed = 5,
-    use_rainbow = true,
-    tracers = true,
+    use_rainbow = false,
+    tracers = false,
     box = true,
     name = true,
     dist = true,
